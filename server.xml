@@ -88,7 +88,7 @@
     <Connector port="443" protocol="HTTP/1.1" SSLEnabled="true"
                maxThreads="150" scheme="https" secure="true"
                clientAuth="false" sslProtocol="TLS" 
-               keystoreFile="conf/myKey.p12"
+               keystoreFile="/myKey.p12"
 			   keystoreType="PKCS12"
 			   keystorePass="123456"
 			   keyPass="123456"
